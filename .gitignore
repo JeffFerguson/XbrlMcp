@@ -1,0 +1,49 @@
+# .gitignore for Visual Studio Code and .NET projects
+# Ignore node_modules, build output, VS Code settings, and user-specific files
+
+# VS Code settings
+.vscode/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if it exists
+packages/
+# except build/, which is used as an MSBuild target.
+!packages/build/
+
+# Visual Studio Code extensions
+.history/
+
+# Others
+*.vspscc
+*.vssscc
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.sln.ide
+
+# Rider
+.idea/
+*.sln.iml
